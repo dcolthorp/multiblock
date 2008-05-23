@@ -1,4 +1,6 @@
-require File.dirname(__FILE__) + '/../../../../test_helper'
+require File.dirname(__FILE__) + '/test_helper'
+
+require_relative "../src/multiblock"
 
 class MultiblockTest < Test::Unit::TestCase
   
